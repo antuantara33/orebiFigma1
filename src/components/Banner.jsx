@@ -1,6 +1,3 @@
-import React from 'react'
-import "slick-carousel/slick/slick.css";
-
 import banimg from "../assets/banner.png";
 import Slider from "react-slick";
 import { MdTranslate } from 'react-icons/md';
@@ -26,7 +23,7 @@ const Banner = () => {
           position:'absolute',
           left:"10%",
           top:"50%",
-          transform:"TranslateY(-50%)"
+          transform:"translateY(-50%)"
 
         }}
       >
@@ -39,7 +36,7 @@ const Banner = () => {
           width: "28px",
           color: "transparent",
           padding:"10px 0",
-          borderRight: "2px red solid",
+          borderRight: "2px #ffff solid",
 
         }}
       >
@@ -48,7 +45,7 @@ const Banner = () => {
     )
   };
   return (
-    <div className='border-b-[1px] border-[#F0F0F0] pb-4'>
+    <div id='banner'className='border-b-[1px] border-[#F0F0F0] pb-4'>
       <Slider {...settings}>
            <div className="">
         <img src={banimg} alt="" />

@@ -5,9 +5,11 @@
     --font-dm:"DM Sans", sans-serif;
     
 }
-#banner.slick-dots .slick-active div{
-    border-right:2px black solid !important ;
-    color:#222 !important;
+#banner .slick-dots .slick-active div {
+  border-right: 2px #222 solid!important;
+  color: #222 !important;
+  z-index: 200;
+
 }
 .nextButton {
     height: 60px;
