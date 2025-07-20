@@ -1,6 +1,11 @@
+import Banner from "./components/Banner"
+import { ContextApi } from "./components/ContextApi"
+
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
-import Home from "./pages/Home"
+import Newarrivals from "./components/Newarrivals"
+import Sales from "./components/Sales"
+
 
 
 function App() {
@@ -8,9 +13,14 @@ function App() {
 
   return (
     <>
-      <Home />
+     
       <Header/>
       <Navbar />
+      <Banner/>
+      <Sales/>
+      <Newarrivals/>
+      <ContextApi/>
+     
       
     </>
   )
