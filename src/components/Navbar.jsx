@@ -44,7 +44,7 @@ const Navbar = () => {
   }, [cateShow, accShow, cartshow]);
 
   return (
-    <nav className='bg-[#f5f5f5] py-2 lg:mt-0'>
+    <nav className='bg-[#f5f5f5] py-2 mt-0'>
         <Container>
         <Flex className= "items-center">
             <div className="w-1/4 relative">
@@ -82,7 +82,7 @@ const Navbar = () => {
                font-dm border-b-[1px] border-[rgba(255,255,255,0.7)]'>Bags</li>
               <li className='py-1 text-[rgba(255,255,255,0.7)] pl-[20px]
                hover:text-[#fff] hover:pl-[30px] duration-300  ease-in-out
-               font-dm border-b-[1px]border-[rgba(255,255,255,0.7)]'>Home appliances</li>
+               font-dm border-b-[1px] border-[rgba(255,255,255,0.7)]'>Home appliances</li>
             </ul>
  
 

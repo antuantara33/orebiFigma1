@@ -25,7 +25,7 @@
     -ms-border-radius:50% ;
     -o-border-radius:50% ;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 30px;
     transform: translate(-50%);
     -webkit-transform: translate(-50%);
@@ -48,7 +48,7 @@
     -o-border-radius:50% ;
     position: absolute;
      bottom: 50%;
-    right: 10px;
+    right: -15px;
     transform: translate(-50%);
     z-index: 1;
     -webkit-transform: translate(-50%);

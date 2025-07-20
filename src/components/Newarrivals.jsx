@@ -45,7 +45,7 @@ const Newarrivals = () => {
   return (
     <div>
         <Container>
-            <h2 className='font-dm text-[40px] text-[#262626] font-bold'>Newarrivals</h2>
+            <h2 className='font-dm text-[40px] text-[#262626] font-bold mb-[10px]'>Newarrivals</h2>
           
              <div>
                   <Slider {...newSlider}>
