@@ -50,7 +50,7 @@ const Newarrivals = () => {
              <div>
                   <Slider {...newSlider}>
                     {Data.map((item)=>(
-              <div className="!w-[95%]]">
+              <div className="!w-[95%]">
                <div className="relative group">
                  <div className="">
                   <img src={item.thumbnail} alt="" />
@@ -63,7 +63,7 @@ const Newarrivals = () => {
                    <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]' >
                     <span>compare</span> <IoGitCompare />
                     </li>
-                        <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
+                        <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#22]2'>
                           <span>Add to cart</span><FaCartPlus/>
                           </li>
                       
@@ -72,8 +72,8 @@ const Newarrivals = () => {
                </div>
                 <div className=" flex justify-between ">
                   <div className="">
-                    <h3>{item.title}</h3>
-                    <p>{item.brand}</p>
+                    <h3  className="lg:text-[18px] text-[14px] text-primary font-bold font-dmsans">{item.title}</h3>
+                    <p className="lg:text-[16px] text-[12px] text-secondary font-normal font-dmsans">{item.brand}</p>
                   </div>
                   <div className="">
                     ${item.price}

@@ -50,11 +50,11 @@ const Navbar = () => {
             <div className="w-1/4 relative">
             <div className="flex items-center gap-2" ref={cateRef}>
                  <HiBars2/>
-            <h3 className='font-dm font-normal text-[14px] text-[#262626]'>Shop by Category</h3>
+            <h3 className='font-dm font-normal text-[14px] text-[#262626] '>Shop by Category</h3>
             </div>
         
            {cateShow &&
-<div className="bg-[#262626] py-3 absolute left-0 top-[43px] w-full">
+<div className="bg-[#262626] py-3 absolute left-0 top-[43px] w-full z-[10]">
             <ul>
               <li className='py-1 text-[rgba(255,255,255,0.7)] pl-[20px]
                hover:text-[#fff] hover:pl-[30px] duration-300  ease-in-out
@@ -94,7 +94,7 @@ const Navbar = () => {
             <div className=" relative">
                 <input type="text" placeholder='search... ' className='w-full bg-white py-3 pl-2 rounded-full' />
            
-            <div className='absolute  right-6 top-[50%] translate-y-[-50%]'>
+            <div className='absolute  right-6 top-[50%] translate-y-[-50%] z-[10]'>
                  <FaSearch/> 
                 </div>
             </div>
@@ -111,7 +111,7 @@ const Navbar = () => {
              </div>
 
            {accShow && (
-             <div className="w-[200px] absolute left-[30%] top-[41px]">
+             <div className="w-[200px] absolute left-[30%] top-[41px] z-[10]">
               <ul>
                <li className='py-3 px-4 bg-[#262626] text-white font-dm text-[16px]
                 text-center hover:text-[#222] hover:bg-[#fff] duration-300 ease-in-out'>My Account</li>
@@ -125,7 +125,7 @@ const Navbar = () => {
              </div>
            )}
           {cartshow &&
-           <div className="absolute left-0 top-[40px] w-full">
+           <div className="absolute left-0 top-[40px] w-full z-[10]">
             <div className="flex items-center justify-around bg-[#f5f5f5]">
               <div className="">
                 <img src={cartImg} alt="" />
