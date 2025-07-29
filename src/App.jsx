@@ -1,15 +1,21 @@
-import Banner from "./components/Banner"
-import Bestsell from "./components/Bestsell"
-import { ContextApi } from "./components/ContextApi"
-import Footer from "./components/Footer"
 
-import Header from "./components/Header"
-import Navbar from "./components/Navbar"
-import Newarrivals from "./components/Newarrivals"
-import Phone from "./components/Phone"
-import Sales from "./components/Sales"
-import Special from "./components/Special"
+import { createBrowserRouter, createRoutesFromChildren, Route, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home";
+import Layout from "./components/Layout";
+import About from "./pages/About";
+import Error from "./pages/Error";
+import Shop from "./pages/Shop";
+let router = createBrowserRouter(createRoutesFromChildren(
+<>
+ <Route  element ={<Layout/>}>
+ <Route path="/" element={<Home/>}></Route>
+ <Route path="/product" element={<Shop/>}></Route>
+  <Route path="/about" element={<About/>}></Route>
+ </Route>
+  <Route path="*" element={<Error/>}></Route>
+</>
 
+))
 
 
 function App() {
@@ -18,16 +24,7 @@ function App() {
   return (
     <>
      
-      <Header/>
-      <Navbar />
-      <Banner/>
-      <Sales/>
-      <Newarrivals/>
-      <ContextApi/>
-      <Bestsell/>
-      <Phone/>
-      <Special/>
-      <Footer/>
+    <RouterProvider router={router}></RouterProvider>
      
       
     </>

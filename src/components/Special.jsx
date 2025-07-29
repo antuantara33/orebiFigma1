@@ -33,6 +33,9 @@ const Special = () => {
               </li>
           </ul>
          </div>
+          <div className='absolute top-[20px] left-[20px]'>
+           <a className="py-[8px] px-[30px]  bg-[#262626] inline-block text-[14px] font-bold font-dm text-white" href="#">New</a>
+            </div>
           </div>
        </div>
          <div className="flex justify-between">
@@ -64,6 +67,9 @@ const Special = () => {
               </li>
           </ul>
          </div>
+          <div className='absolute top-[20px] left-[20px]'>
+               <a className="py-[8px] px-[30px]  bg-[#262626] inline-block text-[14px] font-bold font-dm text-white" href="#">New</a>
+                </div>
           </div>
        </div>
          <div className="flex justify-between">
@@ -95,6 +101,9 @@ const Special = () => {
               </li>
           </ul>
          </div>
+          <div className='absolute top-[20px] left-[20px]'>
+                   <a className="py-[8px] px-[30px]  bg-[#262626] inline-block text-[14px] font-bold font-dm text-white" href="#">New</a>
+                   </div>
           </div>
        </div>
          <div className="flex justify-between">
@@ -115,7 +124,7 @@ const Special = () => {
         
          <div className="absolute left-0 bottom-0 w-full bg-[white] opacity-0 group-hover:opacity-50 duration-300 ease-in-out">
           <ul>
-            <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'S>
+            <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end pt-[25px] gap-[15px]'>
               <span className=''>Add to Wish List</span><FaHeart/>
             </li>
             <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
@@ -126,6 +135,9 @@ const Special = () => {
               </li>
           </ul>
          </div>
+          <div className='absolute top-[20px] left-[20px]'>
+                  <a className="py-[8px] px-[30px]  bg-[#262626] inline-block text-[14px] font-bold font-dm text-white" href="#">New</a>
+                  </div>
           </div>
        </div>
          <div className="flex justify-between">

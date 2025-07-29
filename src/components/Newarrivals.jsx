@@ -8,6 +8,7 @@ import { GrLinkPrevious } from "react-icons/gr";
 import { GrLinkNext } from "react-icons/gr";
 import { ApiData } from './ContextApi';
 import Slider from "react-slick";
+import { Link } from 'react-router-dom';
 
 
 
@@ -50,6 +51,7 @@ const Newarrivals = () => {
              <div>
                   <Slider {...newSlider}>
                     {Data.map((item)=>(
+             <Link to="/product">
               <div className="!w-[95%]">
                <div className="relative group">
                  <div className="">
@@ -69,17 +71,21 @@ const Newarrivals = () => {
                       
                   </ul>
                  </div>
+                  <div className='absolute top-[20px] left-[20px]'>
+                                        <a className="py-[8px] px-[30px]  bg-[#262626] inline-block text-[14px] font-bold font-dm text-white" href="#">New</a>
+                                    </div>
                </div>
                 <div className=" flex justify-between ">
                   <div className="">
-                    <h3  className="lg:text-[18px] text-[14px] text-primary font-bold font-dmsans">{item.title}</h3>
-                    <p className="lg:text-[16px] text-[12px] text-secondary font-normal font-dmsans">{item.brand}</p>
+                    <h3  className="lg:text-[18px] text-[14px] text-primary font-bold font-dm">{item.title}</h3>
+                    <p className="lg:text-[16px] text-[12px] text-secondary font-normal font-dm">{item.brand}</p>
                   </div>
                   <div className="">
                     ${item.price}
                   </div>
                 </div>
               </div>
+             </Link>
             ))}
             </Slider>
             </div>
