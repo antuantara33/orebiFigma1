@@ -7,7 +7,7 @@ const Footer = () => {
   return (
    
 
-         <section className="bg-[#F5F5F3] lg:py-[55px] py-[30px]">
+         <section className="bg-[#F5F5F3] lg:py-[55px] py-[20px] mb-9">
         <Container>
         <div className="flex flex-wrap lg:pb-[65px] pb-[20px] ">
           <div className="lg:w-1/8 w-1/3">
