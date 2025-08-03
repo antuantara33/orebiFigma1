@@ -55,6 +55,7 @@ const Navbar = () => {
         
            {cateShow &&
 <div className="bg-[#262626] py-3 absolute left-0 top-[43px] w-full z-[10]">
+  
             <ul>
               <li className='py-1 text-[rgba(255,255,255,0.7)] pl-[20px]
                hover:text-[#fff] hover:pl-[30px] duration-300  ease-in-out
