@@ -37,7 +37,10 @@ const Shop = () => {
  }
   
 
-
+let paginate = (index) =>{
+ setCurrentPage(index + 1)
+  
+}
   
 
 
@@ -291,11 +294,11 @@ const Shop = () => {
               {letShow && (
                 <ul className="mb-[50px]">
                   <li className="text-[#767676] text-[16px] font-dm pb-[19px] flex items-center gap-[10px] border-b-1 border-[#D8D8D8] font-bold">
-                    <div className="h-[11px] w-[11px] bg-[#000] rounded-full"></div>
+                    <div className="h-[11px] w-[11px] bg-[#FF8686] rounded-full"></div>
                     Color 1
                   </li>
                   <li className="text-[#767676] text-[16px] font-dm py-[19px] flex items-center gap-[10px] border-b-1 border-[#D8D8D8] font-bold">
-                    <div className="h-[11px] w-[11px] bg-[#FF8686] rounded-full"></div>
+                    <div className="h-[11px] w-[11px] bg-[#000] rounded-full"></div>
                     Color 2
                   </li>
                   <li className="text-[#767676] text-[16px] font-dm py-[19px] flex items-center gap-[10px] border-b-1 border-[#D8D8D8] font-bold">
@@ -412,7 +415,7 @@ const Shop = () => {
             <div className="flex flex-wrap justify-between">
               <Page allData = {allData}/>
 
-              <Pagination pageNumber={pageNumber} />
+              <Pagination pageNumber={pageNumber} paginate={paginate} currentPage={currentPage} perPage={perPage} info={info} />
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ const Special = () => {
         
          <div className="absolute left-0 bottom-0 w-full bg-[white] opacity-0 group-hover:opacity-50 duration-300 ease-in-out">
           <ul>
-            <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
+            <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end pt-[25px] gap-[15px]'>
               <span className=''>Add to Wish List</span><FaHeart/>
             </li>
             <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
@@ -56,7 +56,7 @@ const Special = () => {
         
          <div className="absolute left-0 bottom-0 w-full bg-[white] opacity-0 group-hover:opacity-50 duration-300 ease-in-out">
           <ul>
-            <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'S>
+            <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end pt-[25px] gap-[15px]'>
               <span className=''>Add to Wish List</span><FaHeart/>
             </li>
             <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
@@ -90,7 +90,7 @@ const Special = () => {
         
          <div className="absolute left-0 bottom-0 w-full bg-[white] opacity-0 group-hover:opacity-50 duration-300 ease-in-out">
           <ul>
-            <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'S>
+            <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end pt-[25px] gap-[15px]'>
               <span className=''>Add to Wish List</span><FaHeart/>
             </li>
             <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
@@ -127,10 +127,10 @@ const Special = () => {
             <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end pt-[25px] gap-[15px]'>
               <span className=''>Add to Wish List</span><FaHeart/>
             </li>
-            <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
+            <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end py-[20px] gap-[15px]'>
                <span>compare</span> <IoGitCompare/>
             </li>
-            <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
+            <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end pb-[25px] gap-[15px]'>
                 <span>Add to cart</span><FaCartPlus/>
               </li>
           </ul>

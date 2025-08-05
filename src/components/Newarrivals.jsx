@@ -61,10 +61,6 @@ const Newarrivals = () => {
     ]
   }
 
-  if (loading) {
-    return <h2 className='text-center text-lg font-bold'>Loading...</h2>;
-  }
-
   return (
     <div>
       <Container>
@@ -72,19 +68,19 @@ const Newarrivals = () => {
 
         <Slider {...newSlider}>
           {info.map((item) => (
-            <Link to="/product" key={item.id}>
+            <Link to="/product">
               <div className="!w-[95%]">
                 <div className="relative group">
                   <img src={item.thumbnail} alt={item.title} />
                   <div className="absolute left-0 bottom-0 w-full bg-white opacity-0 group-hover:opacity-100 duration-300 ease-in-out">
                     <ul className='pr-4'>
-                      <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
+                      <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end pt-[25px] gap-[15px]'>
                         <span>Add to Wish List</span> <FaHeart/>
                       </li>
-                      <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
+                      <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end py-[20px] gap-[15px]'>
                         <span>Compare</span> <IoGitCompare/>
                       </li>
-                      <li className='flex items-center justify-end py-2 gap-2 text-[#767676] hover:text-[#222]'>
+                      <li className='flex items-center text-[#767676] hover:text-[#262626] cursor-pointer text-[16px] font-bold font-dm  justify-end pb-[25px] gap-[15px]'>
                         <span>Add to Cart</span><FaCartPlus/>
                       </li>
                     </ul>
